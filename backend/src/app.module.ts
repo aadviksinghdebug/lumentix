@@ -28,6 +28,9 @@ import { TransactionsModule } from './transactions/transactions.module';
 import { TicketsModule } from './tickets/tickets.module';
 import { AdminModule } from './admin/admin.module';
 import { RegistrationsModule } from './registrations/registrations.module';
+import { VipModule } from './vip/vip.module';
+import { AccessibilityModule } from './accessibility/accessibility.module';
+import { VenuesModule } from './venues/venues.module';
 
 @Module({
   imports: [
@@ -103,6 +106,9 @@ import { RegistrationsModule } from './registrations/registrations.module';
     TicketsModule,
     AdminModule,
     RegistrationsModule,
+    VipModule,
+    AccessibilityModule,
+    VenuesModule,
   ],
   controllers: [AppController],
   providers: [
